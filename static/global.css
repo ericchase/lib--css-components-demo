@@ -1,18 +1,18 @@
 :root {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 html,
 body {
-	box-sizing: border-box;
-	block-size: 100%;
-	inline-size: 100%;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  block-size: 100%;
+  inline-size: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-size: 16px;
+  font-size: 16px;
 }
