@@ -1,6 +1,10 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <div class="column">
-	<a href="default">Unstyled Demo</a>
-	<a href="demo">Styled Demo</a>
+	<a href="{base}/default">Unstyled Demo</a>
+	<a href="{base}/demo">Styled Demo</a>
 </div>
 
 <style>
