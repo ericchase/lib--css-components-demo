@@ -1,5 +1,6 @@
 <script lang="ts">
   import { browser } from '$app/environment';
+  import { base } from '$app/paths';
 
   let iframeDefault: HTMLIFrameElement;
   let iframeDemo: HTMLIFrameElement;
@@ -16,8 +17,8 @@
   <div class="column">
     <label>Change :root font size: <input type="number" bind:value={fontSize} step="0.1" /></label>
     <div class="row">
-      <iframe bind:this={iframeDefault} width="100%" height="100%" title="Default" src="/default" />
-      <iframe bind:this={iframeDemo} width="100%" height="100%" title="Demo" src="/demo" />
+      <iframe bind:this={iframeDefault} width="100%" height="100%" title="Default" src="{base}/default" />
+      <iframe bind:this={iframeDemo} width="100%" height="100%" title="Demo" src="{base}/demo" />
     </div>
   </div>
 </section>
